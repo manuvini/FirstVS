@@ -8,6 +8,9 @@ const columns  = [
 
 export default class Accountsearchresults extends LightningElement {
 
+
+    test = null;
+
     columns = columns
     @api searchdetails = []
 }
