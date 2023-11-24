@@ -1,0 +1,21 @@
+<apex:page controller="Cvf" >
+
+
+<apex:form >
+<apex:pageBlock title="Contact">
+<apex:pageBlockSection title="Add Contact" >
+
+<apex:inputfield value="{!Cvf.firstname}" /> 
+<apex:inputfield value="{!Cvf.lastname}"/> 
+</apex:pageBlockSection>
+<apex:pageBlockButtons >
+
+<apex:commandButton action="{!doSave}" value="Save"/>
+</apex:pageBlockButtons>
+
+
+
+</apex:pageBlock>
+</apex:form>
+          
+</apex:page>

@@ -1,0 +1,18 @@
+<apex:page controller="MyClass">
+
+    <apex:form >
+    
+    Welcome {!$User.FirstName}
+    <br/>
+    <br/>
+    
+    
+    <apex:inputText value="{!MyClass.name}"/>
+    
+    <apex:commandButton value="Do save" action="{!doSave}"/>
+    
+    </apex:form>
+ 
+ 
+ 
+</apex:page>

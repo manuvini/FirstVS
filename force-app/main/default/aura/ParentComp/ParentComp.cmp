@@ -1,0 +1,11 @@
+<aura:component >
+    
+ 
+    <div>
+    I am from parent
+    </div>
+         <c:ChildComp myText1="Hello the new text"/>
+
+    <aura:handler name='myEvent' event='c:MyEvt' action='{!c.handleEvent}'/>
+	
+</aura:component>

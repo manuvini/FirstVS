@@ -1,0 +1,13 @@
+<apex:page controller="q5Class" >
+        <apex:form >
+            <apex:pageBlock >
+                <apex:pageBlockSection >
+                <apex:inputText value="{!q5Class.firstname}"/> 
+                <apex:inputText value="{!q5Class.lastname}"/> 
+                </apex:pageBlockSection>
+                <apex:pageBlockButtons >
+                                <apex:commandButton action="{!doSave}" value="Save Contact"/>
+                </apex:pageBlockButtons>
+             </apex:pageBlock>
+        </apex:form>
+</apex:page>

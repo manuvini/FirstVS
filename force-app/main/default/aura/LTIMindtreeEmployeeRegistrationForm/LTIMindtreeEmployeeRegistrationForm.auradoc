@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>This component is used to store information of the LTIMindtree Emplyees into Salesforce</aura:description>
+	<aura:example name="ExampleName" ref="c:LTIMindtreeEmployeeResgistrationForm" label="LTIMindtree Component">
+		This component is used to store the LTImIndtree emp info...
+	</aura:example>
+</aura:documentation>

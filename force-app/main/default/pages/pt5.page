@@ -1,0 +1,23 @@
+<apex:page controller="conInsert" >
+
+
+<apex:form >
+<apex:pageBlock >
+<apex:pageBlockSection >
+<apex:inputText value="{!conInsert.firstName}"/>
+<apex:inputText value="{!conInsert.lastName}"/>
+
+
+</apex:pageBlockSection>
+
+<apex:pageBlockButtons >
+<apex:commandButton value="Save" action="{!doSave}"/>
+
+</apex:pageBlockButtons>
+
+</apex:pageBlock>
+
+</apex:form>
+
+
+</apex:page>
